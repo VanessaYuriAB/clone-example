@@ -1,30 +1,39 @@
-# Clone Example (Git & GitHub Fundamentals)
+# Clone Example — Git & GitHub Fundamentals
 
-Este repositório faz parte do meu aprendizado prático em **Git e GitHub**, com foco nos
-principais comandos e no fluxo de trabalho utilizado no desenvolvimento de software
+> Este é um projeto **educacional** guiado, com foco no entendimento do fluxo Git/GitHub.
+
+O repositório faz parte do meu aprendizado prático em **Git e GitHub**, com foco nos
+comandos essenciais e no fluxo de trabalho utilizado no desenvolvimento de software
 moderno.
 
-Foi desenvolvido como parte do programa do _bootcamp de Desenvolvimento Web da Triple Ten
-Brasil_, durante a _Sprint 3_ que aborda o **Fluxo de Desenvolvimento**.
+O projeto foi desenvolvido como parte do **Bootcamp de Desenvolvimento Web da TripleTen
+Brasil**, durante a **Sprint 3 — Fluxo de Desenvolvimento**.
 
-O objetivo do projeto é demonstrar, de forma simples e organizada, como clonar um
-repositório, criar arquivos, versionar mudanças e enviá-las para um repositório remoto no
-GitHub.
+---
 
-![Git](https://img.shields.io/badge/Git-Controle%20de%20Vers%C3%A3o-orange)
-![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-success)
+## 📌 Objetivo do projeto
 
-## 📌 Conceitos
+Demonstrar, de forma simples e organizada, como:
 
-Foram trabalhados os seguintes conceitos fundamentais:
+- Clonar um repositório remoto
+- Trabalhar localmente em um projeto versionado com Git
+- Criar e versionar arquivos
+- Enviar alterações para o GitHub
+- Utilizar boas práticas iniciais de controle de versão
+
+---
+
+## 🧠 Conceitos
 
 - Clonagem de repositórios com `git clone`
 - Navegação no terminal (_bash_)
 - Criação de arquivos via _linha de comando_
-- Versionamento com _Git_ (`add`, `commit`, `push`)
+- Versionamento com Git (`add`, `commit`, `push`)
 - Integração entre repositório local e remoto
 - Uso do arquivo `.gitignore`
-- Boas práticas iniciais de controle de versão
+- Boas práticas iniciais de versionamento
+
+---
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -34,9 +43,11 @@ Foram trabalhados os seguintes conceitos fundamentais:
 - HTML
 - CSS
 
+---
+
 ## 📂 Estrutura do projeto
 
-```Shell
+```bash
 clone-example/
 ├── .gitignore
 ├── index.html
@@ -44,20 +55,21 @@ clone-example/
 └── style.css
 ```
 
-## 🚀 Fluxo de trabalho utilizado
+---
 
-O fluxo de trabalho seguido neste projeto foi:
+## 🔄 Fluxo de trabalho aplicado
 
-1. Clonagem do repositório remoto
-2. Criação dos arquivos do projeto
-3. Adição dos arquivos à área de stage
-4. Criação de commits
-5. Envio das alterações para o GitHub
+- Clonagem do repositório remoto
+- Criação dos arquivos do projeto
+- Adição dos arquivos à área de stage
+- Criação de commits
+- Envio das alterações para o GitHub
 
-Comandos principais utilizados:
+### Comandos utilizados
 
-```bash
+```Shell
 git clone git@github.com:VanessaYuriAB/clone-example.git
+cd clone-example
 git status
 git add .
 git commit -m "Mensagem de commit"
@@ -67,12 +79,26 @@ git push -u origin main
 ## 🔒 .gitignore
 
 O projeto utiliza um arquivo `.gitignore` para evitar que arquivos desnecessários ou
-sensíveis sejam versionados, como o `.DS_Store`.
+dependentes do sistema operacional sejam versionados.
 
-Essa prática ajuda a manter o repositório limpo e independente do sistema operacional.
+Exemplo:
 
-## 🎯 Objetivo do projeto
+```Shell
+.DS_Store
+```
 
-Projeto de caráter educacional, que faz parte do meu portfólio de estudos em
-desenvolvimento web. Demonstra familiaridade com ferramentas essenciais do dia a dia de
-qualquer desenvolvedor, especialmente no trabalho colaborativo com Git e GitHub.
+Essa prática ajuda a manter o repositório limpo, seguro e multiplataforma.
+
+---
+
+## ✅ Status do projeto
+
+Concluído — projeto educacional finalizado conforme proposto na Sprint 3.
+
+---
+
+## 👩‍💻 Autora
+
+Vanessa Yuri A. Brito
+
+Projeto de estudo em desenvolvimento web, com foco em fundamentos de Git e GitHub.
